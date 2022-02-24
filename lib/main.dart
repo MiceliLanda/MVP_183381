@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:miceli_landa_jhonathan_183381_c2/Pages/Login/loginHome.dart';
+import 'package:miceli_landa_jhonathan_183381_c2/Pages/Widgets/headers.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -13,8 +15,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Home',
       // home: HomeLogin(),
-      initialRoute: 'login',
-      routes: {'login': (context) => const HomeLogin()},
+      initialRoute: 'canva',
+      // routes: {'login': (context) => const HomeLogin()},
+      routes: {'canva': (context) => const Contenedor()},
     );
   }
 }
